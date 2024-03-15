@@ -258,8 +258,8 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero_foto/people_office.jpg);
-  max-width: 1440px;
+    url(../images/hero_foto/people_office_mob.jpg);
+  max-width: 767px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -267,21 +267,48 @@ body {
   background-size: cover;
   background-origin: padding-box;
   background-clip: padding-box;
+  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
 }
+@media screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .section-hero {
+    background-image: url(../images/hero_foto/people_office_mob2x.jpg);
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .section-hero {
+    max-width: 1200px;
+    background-image: url(../images/hero_foto/people_office_tablet.jpg);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .section-hero {
+    background-image: url(../images/hero_foto/people_office_tablet2x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-hero {
+    max-width: 1440px;
+    background-image: url(../images/hero_foto/people_office_desctop.jpg);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1200px) {
+  .section-hero {
+    background-image: url(../images/hero_foto/people_office2x.jpg);
+  }
+}
 .section-hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
+  max-width: 216px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 .oder-service-btn {
   font-family: "Roboto", sans-serif;
