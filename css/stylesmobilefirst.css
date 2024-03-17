@@ -588,7 +588,6 @@ body {
   gap: 72px;
 }
 .footer-logo-container {
-  margin-bottom: 72px;
   text-align: center;
 }
 .footer-logo {
@@ -621,7 +620,6 @@ body {
   min-width: 208px;
   text-align: center;
   justify-content: center;
-  margin-bottom: 72px;
 }
 .footer-social {
   font-weight: 500;
