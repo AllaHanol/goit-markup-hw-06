@@ -1184,8 +1184,7 @@ body {
     flex-direction: column;
     gap: 40px;
     margin-left: 0;
-    padding-bottom: 168px;
-  }
+    }
   .mobile-menu-item {
     font-weight: 700;
     font-size: 36px;
